@@ -3,6 +3,12 @@
   "groups": [
     {
       "sourceType": "com.boot.config.PersistenceConfiguration",
+      "name": "datasource.flyway",
+      "sourceMethod": "public javax.sql.DataSource flywayDataSource() ",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.boot.config.PersistenceConfiguration",
       "name": "spring.datasource",
       "sourceMethod": "public javax.sql.DataSource dataSource() ",
       "type": "javax.sql.DataSource"
