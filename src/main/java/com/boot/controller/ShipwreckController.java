@@ -26,7 +26,7 @@ public class ShipwreckController {
 	@RequestMapping(value="shipwrecks", method = RequestMethod.GET)
 	public  List<Shipwreck> list(){
 		return shipwreckRepository.findAll();
-		// uncomment this line to show stubbed data return ShipwreckStub.list();
+		//uncomment this line to show stubbed data return ShipwreckStub.list();
 	}
 	
 	@RequestMapping(value="shipwrecks", method = RequestMethod.POST)
